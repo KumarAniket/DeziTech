@@ -1,0 +1,22 @@
+exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\wamp\www\PinkPanther\admin_panel\php\connect.php:13
+Stack trace:
+#0 C:\wamp\www\PinkPanther\admin_panel\php\connect.php(13): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\wamp\www\PinkPanther\admin_panel\php\configure.php(2): include('C:\\wamp\\www\\Pin...')
+#2 C:\wamp\www\PinkPanther\admin_panel\php\intialize.php(5): require('C:\\wamp\\www\\Pin...')
+#3 C:\wamp\www\PinkPanther\index.php(2): include('C:\\wamp\\www\\Pin...')
+#4 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\wamp\www\PinkPanther\admin_panel\php\connect.php:13
+Stack trace:
+#0 C:\wamp\www\PinkPanther\admin_panel\php\connect.php(13): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\wamp\www\PinkPanther\admin_panel\php\configure.php(2): include('C:\\wamp\\www\\Pin...')
+#2 C:\wamp\www\PinkPanther\admin_panel\php\intialize.php(5): require('C:\\wamp\\www\\Pin...')
+#3 C:\wamp\www\PinkPanther\index.php(2): include('C:\\wamp\\www\\Pin...')
+#4 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\wamp\www\PinkPanther\admin_panel\php\connect.php:13
+Stack trace:
+#0 C:\wamp\www\PinkPanther\admin_panel\php\connect.php(13): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\wamp\www\PinkPanther\admin_panel\php\configure.php(2): include('C:\\wamp\\www\\Pin...')
+#2 C:\wamp\www\PinkPanther\admin_panel\php\intialize.php(5): require('C:\\wamp\\www\\Pin...')
+#3 C:\wamp\www\PinkPanther\index.php(2): include('C:\\wamp\\www\\Pin...')
+#4 {main}
