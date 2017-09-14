@@ -4,7 +4,7 @@ include 'admin_panel/php/intialize.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>School of Computer Engineering</title>
+	<title>DeziTech</title>
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<script src="js/jquery.min.js"></script>
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -54,7 +54,7 @@ include 'admin_panel/php/intialize.php';
 					<!-- Single-page -->
 					<div class="single-page">
 						<div class="container">
-							<h2 class="heading text-center">Dean's Message</h2>
+							<h2 class="heading text-center">Head's Message</h2>
 							<div class="single">
 								<div class="blog-to1 service_info">		
 									

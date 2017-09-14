@@ -16,7 +16,7 @@
                             <br>
                             <li><span>&nbsp</span></li>
                             <li class="dropdown">
-                                <a href="about_us.php" target="_blank">About Us</a></li>                              
+                                <a href="about_us.php">About Us</a></li>                              
                                     <li class="dropdown">
                                         <a href="gallery.php">Campus Life</a></li>                                
                                         <li class="dropdown">
@@ -26,8 +26,8 @@
                                                 <li><a href="workshop.php">Workshops</a></li>
                                                 <li><a href="#">Eminent Visitors</a></li>
                                             </ul></li>    
-                                            <li class="dropdown"><a href="#">Alumini</a></li>
-                                            <li class="dropdown"><a href="login_page.php">Login</a></li>
+                                            <li class="dropdown"><a href="alumini.php">Alumini</a></li>
+                                            <li class="dropdown"><a href="admin_panel/login.php">Login</a></li>
                                             <img style="cursor: pointer;"src="images/q.png" class="searchQ" style="float: right;">
                                             <input style="display: none" type="text" class="inps" placeholder="Search for something"></input>
                                             <img style="display: none" src="images/cross.png" class="restore">

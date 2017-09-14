@@ -67,10 +67,14 @@ include 'admin_panel/php/intialize.php';
 					<div class="our-staff-grids text-center">
 						<div class="col-md-3 our-staff-grid">
 							<div class="view view-seventh">
-								<a href="#"><img class="img-responsive" src="images/anjali.jpg" style="border-radius: 100%; "alt=""></a>
+							</div>
+						</div>
+						<div class="col-md-3 our-staff-grid">
+							<div class="view view-seventh">
+								<a href="#"><img class="img-responsive" style="border-radius: 100%;" src="images/anjali.jpg" alt=""></a>
 								<div class="mask" style="border-radius: 100%;">
 									<ul class="staff-social-icons">
-										<li><a href="https://www.facebook.com/profile.php?id=100004370161233&ref=br_rs" target="_blank"><span class="facebook"> </span></a></li>
+										<li><a href="https://www.facebook.com/sandeepkrjsr" target="_blank"><span class="facebook"> </span></a></li>
 									</ul>
 								</div>
 								<h4>Anjali Singh</h4>
@@ -78,32 +82,10 @@ include 'admin_panel/php/intialize.php';
 						</div>
 						<div class="col-md-3 our-staff-grid">
 							<div class="view view-seventh">
-								<a href="#"><img class="img-responsive" style="border-radius: 100%;" src="images/alabhya.jpg" alt=""></a>
-								<div class="mask" style="border-radius: 100%;">
-									<ul class="staff-social-icons">
-										<li><a href="https://www.facebook.com/alabhyavaibhav" target="_blank"><span class="facebook"> </span></a></li>
-									</ul>
-								</div>
-								<h4>Alabhya Vaibhav</h4>
-							</div>
-						</div>
-						<div class="col-md-3 our-staff-grid">
-							<div class="view view-seventh">
-								<a href="#"><img class="img-responsive" style="border-radius: 100%;" src="images/priyam.jpg" alt=""></a>
-								<div class="mask" style="border-radius: 100%;">
-									<ul class="staff-social-icons">
-										<li><a href="https://www.facebook.com/srivapriyam" target="_blank"><span class="facebook"> </span></a></li>
-									</ul>
-								</div>
-								<h4>Priyam Srivastava</h4>
-							</div>
-						</div>
-						<div class="col-md-3 our-staff-grid">
-							<div class="view view-seventh">
 								<a href="#"><img class="img-responsive" style="border-radius: 100%;" src="images/aniket.jpg" alt=""></a>
 								<div class="mask" style="border-radius: 100%;">
 									<ul class="staff-social-icons">
-										<li><a href="https://www.facebook.com/aniket.singh.33633344" target="_blank"><span class="facebook"> </span></a></li>
+										<li><a href="https://www.facebook.com/profile.php?id=1830395133&fref=ts" target="_blank"><span class="facebook"> </span></a></li>
 									</ul>
 								</div>
 								<h4>Kumar Aniket</h4>

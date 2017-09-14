@@ -53,7 +53,7 @@ if (isset($_POST['Submit'], $_POST['Username'], $_POST['Password'])){
       <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
         ☰
       </button>
-      <a class="navbar-brand">Sign In to DeziTech</a>
+      <a class="navbar-brand">Sign Up to DeziTech</a>
       <div class="collapse navbar-toggleable-xs" id="collapsingNavbar">
         <ul class="nav navbar-nav pull-right">
           <li class="nav-item active">
@@ -78,11 +78,11 @@ if (isset($_POST['Submit'], $_POST['Username'], $_POST['Password'])){
             </p>
 
             <p class="submit">
-              <input type="submit" name="Submit" value="Submit" class="button button-primary button-large" value="Log In">	
+              <input type="submit" name="Submit" value="Submit" class="button button-primary button-large" value="Log In">  
             </p>
           </form>
           <br>
-          <a style="text-align: center;" href="signup.php" target="_blank"><p>Not Yet Registered ?. Click Here!</p></a>
+          <a style="text-align: center;" href="#"><p>Not Yet Registered ?. Click Here!</p></a>
           <h5><?php echo $message; ?><h5>
           </div>
         </div>

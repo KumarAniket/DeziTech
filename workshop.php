@@ -8,7 +8,7 @@ $result = $con->prepare("SELECT * FROM event WHERE type='workshop' AND Visibilit
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Workshops- School of Computer Engineering</title>
+    <title>Workshops - DeziTech</title>
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
     <script src="js/jquery.min.js"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />

@@ -65,8 +65,10 @@ $notice->execute();
 		<ul class="rslides" id="slider1">
 			<li><img src="images/campus_1.jpg" alt=""></li>
 			<li><img src="images/dept_3.jpg" alt=""></li>
+			<li><img src="images/6.jpg" alt=""></li>
 			<li><img src="images/dept_1.jpg" alt=""></li>
 			<li><img src="images/campus_3.jpg" alt=""></li>
+			<li><img src="images/10.jpg" alt=""></li>
 		</ul>
 	</div>
 	<div class="content">

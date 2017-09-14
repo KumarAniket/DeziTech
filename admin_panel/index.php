@@ -28,7 +28,7 @@ $number_of_faculty = $result->fetchColumn();
 <?php
 if (isset($_SESSION['Username']) && $_SESSION['Password'] == true) {
   ?>
-  <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
+  <nav class="navbar  navbar-dark bg-primary">
     <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
         ☰
     </button>
@@ -95,7 +95,7 @@ if (isset($_SESSION['Username']) && $_SESSION['Password'] == true) {
             </p>
 
             <h1 class="display-1 hidden-xs-down">
-            School Of Computer Engineering
+            Welcome, Admin
             </h1>  
             <hr>       
             <div class="row">
@@ -195,7 +195,7 @@ if (isset($_SESSION['Username']) && $_SESSION['Password'] == true) {
 </div>
 <!--/.container-->
 <footer class="container-fluid">
-    <p class="text-right small">©2016 <a href="http://kiit.ac.in">KIIT University</a></p>
+    <p class="text-right small">©2016 <a href="../index.php">DeziTech</a></p>
 </footer>
 
 

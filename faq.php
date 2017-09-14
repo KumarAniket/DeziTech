@@ -4,7 +4,7 @@ include 'admin_panel/php/intialize.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>School of Computer Engineering</title>
+	<title>FAQ - DeziTech</title>
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<script src="js/jquery.min.js"></script>
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -46,88 +46,88 @@ include 'admin_panel/php/intialize.php';
 <body>
 	<!--header section start-->
 	<?php 
-            require 'navbar.php';
-        ?>
-        <!--header section end-->
-				<!-- content-section-starts-here -->
-				<div class="content">
-					<!-- blogs -->
-					<div class="blog">
-						<div class="container">
-							<h2 class="heading text-center">FAQ's</h2>
-							<div class="single-inline">
-								<div class="col-md-6 blog-to">						
-									<div class="blog-top">
-										<div class="blog-left">
-											<b>Q1</b>
-											<strong>Ans</strong>
-										</div>
-										<div class="top-blog">
-											<a class="fast">How to apply to KIITEE 2016?</a>
-											<p class="sed">The Candidates have to choose there course at www.kiit.ac.in. Then they have to fill the form online and print it. They have send the printed form to the given address.</p>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
+	require 'navbar.php';
+	?>
+	<!--header section end-->
+	<!-- content-section-starts-here -->
+	<div class="content">
+		<!-- blogs -->
+		<div class="blog">
+			<div class="container">
+				<h2 class="heading text-center">FAQ's</h2>
+				<div class="single-inline">
+					<div class="col-md-6 blog-to">						
+						<div class="blog-top">
+							<div class="blog-left">
+								<b>Q1</b>
+								<strong>Ans</strong>
+							</div>
+							<div class="top-blog">
+								<a class="fast">Lorem ipsum dolor sit amet consectetur adipiscing elit.?</a>
+								<p class="sed">Sed lacinia nibh vitae lacus consectetur condimentum	Aenean vulputate neque vitae accumsan feugiat.</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="col-md-6 blog-to">						
+						<div class="blog-top">
+							<div class="blog-left">
+								<b>Q2</b>
+								<strong>Ans</strong>
+							</div>
+							<div class="top-blog">
+								<a class="fast">Fusce sit amet elit sollicitudin, dapibus lectus id, bibendum purus?</a>
+								<p class="sed">Donec eget est tempus, pellentesque nibh eget, mattis mi	Aliquam iaculis ex eu tempus interdum.</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="col-md-6 blog-to">						
+						<div class="blog-top">
+							<div class="blog-left">
+								<b>Q3</b>
+								<strong>Ans</strong>
+							</div>
+							<div class="top-blog">
+								<a class="fast">Vestibulum vel enim imperdiet, bibendum diam id, vestibulum nisl?</a>
+								<p class="sed">Cras eu sapien eu neque hendrerit consectetur Fusce sit amet elit sollicitudin, dapibus lectus id, bibendum purus.</p>
 								</div>
-								<div class="col-md-6 blog-to">						
-									<div class="blog-top">
-										<div class="blog-left">
-											<b>Q2</b>
-											<strong>Ans</strong>
-										</div>
-										<div class="top-blog">
-											<a class="fast">How to apply to KIITEE 2016?</a>
-											<p class="sed">The Candidates have to choose there course at www.kiit.ac.in. Then they have to fill the form online and print it. They have send the printed form to the given address.</p>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-								</div>
-								<div class="col-md-6 blog-to">						
-									<div class="blog-top">
-										<div class="blog-left">
-											<b>Q3</b>
-											<strong>Ans</strong>
-										</div>
-										<div class="top-blog">
-											<a class="fast">How to apply to KIITEE 2016?</a>
-											<p class="sed">The Candidates have to choose there course at www.kiit.ac.in. Then they have to fill the form online and print it. They have send the printed form to the given address.</p>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-								</div>
+								<div class="clearfix"> </div>
 							</div>
 						</div>
 					</div>
-					<!-- //blogs -->
-					<!-- //content-section-ends-here -->
-					<!--footer section start-->
-										<?php 
-					require 'footer.php';
-					?>
-								<!--footer section end-->
-									<script type="text/javascript">
-										$(document).ready(function() {
-											var defaults = {
-												containerID: 'toTop',
-												containerHoverID: 'toTopHover',
-												scrollSpeed: 1200,
-												easingType: 'linear' 
-											};
-											$().UItoTop({ easingType: 'easeOutQuart' });
-											$('.searchQ').click(function(){
-												$(this).css("float","left");
-												$('.dropdown').hide();
-												$('.inps').show();
-												$('.restore').show();
-											});
-											$('.restore').click(function(){
-												$(this).css("float","left");
-												$('.dropdown').show();
-												$('.inps').hide();
-												$('.restore').hide();
-											});
-										});
-									</script>
-									<a href="#to-top" id="toTop" style="display:block;"><span id="toTopHover"style="opacity:1;"></span></a>
-								</body>
-								</html>
+				</div>
+			</div>
+			<!-- //blogs -->
+			<!-- //content-section-ends-here -->
+			<!--footer section start-->
+			<?php 
+			require 'footer.php';
+			?>
+			<!--footer section end-->
+			<script type="text/javascript">
+				$(document).ready(function() {
+					var defaults = {
+						containerID: 'toTop',
+						containerHoverID: 'toTopHover',
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+					};
+					$().UItoTop({ easingType: 'easeOutQuart' });
+					$('.searchQ').click(function(){
+						$(this).css("float","left");
+						$('.dropdown').hide();
+						$('.inps').show();
+						$('.restore').show();
+					});
+					$('.restore').click(function(){
+						$(this).css("float","left");
+						$('.dropdown').show();
+						$('.inps').hide();
+						$('.restore').hide();
+					});
+				});
+			</script>
+			<a href="#to-top" id="toTop" style="display:block;"><span id="toTopHover"style="opacity:1;"></span></a>
+		</body>
+		</html>

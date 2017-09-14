@@ -50,78 +50,55 @@ include 'admin_panel/php/intialize.php';
     require 'navbar.php';
     ?>
     <!--header section end-->
-<h2 style="text-align: center; padding-top: 35px">GALLERY</h2> 
-<div class="gallery">
-    <div class="container">
-        <div class="gallery-bottom">
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/1.jpg" alt=""/></a>
+    <h2 style="text-align: center; padding-top: 35px">GALLERY</h2> 
+    <div class="gallery">
+        <div class="container">
+            <div class="gallery-bottom">
+                <div class="col-md-3 gallery-grid">
+                    <a class="example-image-link" href="images/1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/1.jpg" alt=""/></a>
+                </div>
+                <div class="col-md-3 gallery-grid">
+                    <a class="example-image-link" href="images/2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/2.jpg" alt=""/></a>
+                </div>
+                <div class="col-md-3 gallery-grid">
+                    <a class="example-image-link" href="images/3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/3.jpg" alt=""/></a>
+                </div>
+                <div class="col-md-3 gallery-grid">
+                    <a class="example-image-link" href="images/4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/4.jpg" alt=""/></a>
+                </div>
+                <div class="col-md-3 gallery-grid">
+                    <a class="example-image-link" href="images/5.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/5.jpg" alt=""/></a>
+                </div>
+                <div class="col-md-3 gallery-grid">
+                    <a class="example-image-link" href="images/7.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/7.jpg" alt=""/></a>
+                </div>
+                <div class="col-md-3 gallery-grid">
+                    <a class="example-image-link" href="images/8.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/8.jpg" alt=""/></a>
+                </div>
+                <div class="col-md-3 gallery-grid">
+                    <a class="example-image-link" href="images/9.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/9.jpg" alt=""/></a>
+                </div>
+                <div class="col-md-3 gallery-grid">
+                    <a class="example-image-link" href="images/10.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/10.jpg" alt=""/></a>
+                </div>
+                <div class="col-md-3 gallery-grid">
+                    <a class="example-image-link" href="images/25.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/25.jpg" alt=""/></a>
+                </div>
+                <div class="col-md-3 gallery-grid">
+                    <a class="example-image-link" href="images/31.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/31.jpg" alt=""/></a>
+                </div>
+                <div class="col-md-3 gallery-grid">
+                    <a class="example-image-link" href="images/32.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/32.jpg" alt=""/></a>
+                </div>
+                <div class="clearfix"></div>
             </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/2.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/3.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/4.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/5.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/5.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/7.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/7.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/8.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/8.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/9.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/9.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/10.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/10.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/11.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/11.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/12.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/12.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/18.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/18.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/21.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/21.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/23.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/23.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/25.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/25.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/29.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/29.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/31.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/31.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/32.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/32.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/33.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/33.jpg" alt=""/></a>
-            </div>
-            <div class="col-md-3 gallery-grid">
-                <a class="example-image-link" href="images/34.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="images/34.jpg" alt=""/></a>
-            </div>
-            <div class="clearfix"></div>
+
         </div>
 
+        <script src="js/lightbox.js"></script>
+        <!----> 
+
     </div>
-
-    <script src="js/lightbox.js"></script>
-    <!----> 
-
 </div>
 <!-- //News-section -->
 <!-- //content-section-ends-here -->

@@ -7,12 +7,12 @@
                                   <p><a href="faq.php" target="_blank">FAQ's</a></p>
                               </div>
                               <div class="col-md-4 footer-grid">
-                                 <h5>Recent Events </h5>
+                               <h5>Recent Events </h5>
 
-                                 <?php for($i=0; $row_events=$rec_events->fetch(); $i++){ ?>
-                                 <p><a href="<?php echo $row_events['type'];?>.php?id=<?php echo $row_events['id']; ?>"><?php echo $row_events['Title']; ?></a></p>
-                                 <span>
-                                    <?php														
+                               <?php for($i=0; $row_events=$rec_events->fetch(); $i++){ ?>
+                               <p><a href="<?php echo $row_events['type'];?>.php?id=<?php echo $row_events['id']; ?>"><?php echo $row_events['Title']; ?></a></p>
+                               <span>
+                                <?php														
                                                          $date1=date_create($Date);  //current date                                                         
                                                          $date2=date_create($row_events['Date']);   
                                                          $diff=date_diff($date1,$date2);  
@@ -42,8 +42,8 @@
                                      			<p>© 2016 All Rights Reserved | <a href="credits.php">Credits</a></p>                    
                                      		</div>
                                      		<div class="footer-nav">
-                                     		</div>
-                                     		<div class="clearfix"></div>
-                                     	</div>
-                                     </div>
-                                 </div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>

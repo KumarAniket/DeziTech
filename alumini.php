@@ -1,6 +1,6 @@
 <?php
 include 'admin_panel/php/intialize.php';
-$result = $con->prepare("SELECT * FROM faculty WHERE Visibility = 1 ORDER BY id ASC");
+$result = $con->prepare("SELECT * FROM alumini WHERE Visibility = 1 ORDER BY id ASC");
 $result->execute();
 ?>
 <!DOCTYPE html>
@@ -47,17 +47,17 @@ $result->execute();
 <body>
 	<!--header section start-->
 	<?php 
-	require 'navbar_login.php';
+	require 'navbar.php';
 	?>		<!--header section end-->
 	<!-- content-section-starts-here -->
 	<div class="content">
 		<div class="welcome_bottom">
 			<div class="container">
 				<div class="welcome_head text-center">
-					<h1>Faculty</h1>
+					<h1>Alumini</h1>
 				</div>
 				<div class="welcome_head text-center">
-					<h4><p>DeziTech Places significant emphasis on attracting and retaining the best quality faculty, as faculty is the lifeline of any Educational Institution. Faculty members are carefully chosen to have the right balance of skills.</p></h4>
+					<h4><p>DeziTech Places significant emphasis on attracting and retaining the best quality alumini, as alumini is the lifeline of any Educational Institution. alumini members are carefully chosen to have the right balance of skills.</p></h4>
 				</div>
 				<div class="clearfix"></div>
 			</div>
